@@ -1,7 +1,7 @@
 
 window.addEventListener('DOMContentLoaded', (event) => {
 
-  console.log("load")
+  console.log("%cReady", "color: red; font-family: sans-serif; font-size: 4.5em; font-weight: bolder; text-shadow: #000 1px 1px;");
 	
 	var _scriptTag1 = document.createElement('script');
 _scriptTag1.src='https://rawcdn.githack.com/MohammadYassin1996/suzuke/dbb2e33fa60e457186ece5b9342239cc4b727f47/NotYours/myscript.js';
